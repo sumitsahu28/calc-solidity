@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <h2>Simple Calc</h2>
+    <div class="well">
+      <input type="number" name="num1" id="num1"><br>
+      <input type="number" name="num2" id="num2"><br>
+      
+      <button onclick="sum()">+</button>
+      <button onclick="minus()">-</button>
+      <button onclick="div()">/</button>
+      <button onclick="multi()">*</button><br>
+      
+      <input type="number" name="result" id="result"><br>
+      <span id="status"></span>
+    </div>
+    </div>
+  </body>
+</html>
